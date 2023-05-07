@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    
+    "start:production": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "^3.4.3"
+  },
+  "dependencies": {
+    "@nuxt/image-edge": "1.0.0-28050764.aaee7ac",
+    "@nuxtjs/google-fonts": "^3.0.0"
+  }
+}
